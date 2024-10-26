@@ -1,7 +1,7 @@
 CC = clang
 CFLAGS = -g
-OBJFILES = test.o
-TARGET = test
+OBJFILES = simple_server.o
+TARGET = simple_server
 
 $(TARGET): $(OBJFILES)
 	$(CC) $(OBJFILES) -o $(TARGET) $(CFLAGS)
